@@ -1,5 +1,4 @@
-import { DeleteMe } from '../components/DeleteMe';
 
 export default function Home() {
-  return <DeleteMe />;
+  return <p>hello</p>;
 }
