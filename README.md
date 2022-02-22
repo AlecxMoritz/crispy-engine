@@ -17,7 +17,6 @@ Project is initialized with the follow dependencies
 * Next Js
 * TypeScript
 * Storybook
-* Material UI w/ Base Theme
 * Linting w/ Eslint, Prettier & `@typescript-eslint`
 
 //////// original readme below \\\\\\\\\
