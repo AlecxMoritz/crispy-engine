@@ -9,10 +9,7 @@ export default {
 
 const Template = (args) => <Header {...args} />;
 
-export const LoggedIn = Template.bind({});
-LoggedIn.args = {
-  user: {},
+export const Primary = Template.bind({});
+Primary.args = {
+  label: 'Hello World',
 };
-
-export const LoggedOut = Template.bind({});
-LoggedOut.args = {};
