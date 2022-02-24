@@ -1,18 +1,14 @@
 {
-  "name": "am-custom-starter",
+  "name": "crispy-engine",
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "build": "next build",
-    "runBuild": "next start -p 4200",
-    "start": "next dev -p 4200",
+    "start": "start-storybook -p 6006",
     "lint": "npx eslint . --ext .js,.jsx,.ts,.tsx",
-    "sb": "start-storybook -p 6006",
     "buildSb": "build-storybook"
   },
   "dependencies": {
     "@heroicons/react": "^1.0.5",
-    "next": "11.1.2",
     "react": "17.0.2",
     "react-dom": "17.0.2"
   },
